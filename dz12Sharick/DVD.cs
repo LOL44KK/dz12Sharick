@@ -13,6 +13,7 @@
     public override void Print()
     {
         Console.WriteLine("DVD:");
+        Console.WriteLine($"  Name: {Name}");
         Console.WriteLine($"  Manufacturer: {Manufacturer}");
         Console.WriteLine($"  Model:        {Model}");
         Console.WriteLine($"  Quantity:     {Quantity}");
