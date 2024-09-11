@@ -19,6 +19,13 @@
             shop.RemoveStorageDevice("DVD-R");
             shop.UpdateDevice("External HDD", 1, 5000);
             shop.PrintAllDevices();
+
+            Console.WriteLine();
+            Console.WriteLine("shop.FindDevice(\"External HDD\")");
+            if (shop.FindDevice("External HDD") != null)
+            {
+                shop.FindDevice("External HDD").Print();
+            }
         }
     }
 
